@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+     .wrap{
+     	height: 281px;
+     	position: relative;
+     }
+     .active{
+          width: 30px;
+          height: 30px;
+          color:white;
+          background-color:black;
+          border-radius: 30px;
+          text-align: center;
+          line-height: 30px;
+          display: inline-block;
+          margin-right:10px; 
+          overflow: hidden;
+          cursor: pointer;
+     }
+     .button{
+          width: 30px;
+          height: 30px;
+          color:rgb(77, 46, 57);
+          background-color:rgb(125, 228, 181);
+          border-radius: 30px;
+          text-align: center;
+          line-height: 30px;
+          display: inline-block;
+          margin-right:10px; 
+          overflow: hidden;
+          cursor: pointer;
+     }
+     .do{  
+        position: absolute;
+        bottom:15px;
+        left:20px;
+
+
+      }
+      
+	</style>
+</head>
+<body>
+    <div class="wrap" id="wrap">
+    	<div class="move">
+    		<a href="#"><img src="img/1.jpg" alt=""></a>
+    		<a href="#"><img src="img/2.jpg" alt=""></a>
+    		<a href="#"><img src="img/3.jpg" alt=""></a>
+    		<a href="#"><img src="img/4.jpg" alt=""></a>
+    		<a href="#"><img src="img/5.jpg" alt=""></a>
+    	</div>
+    	<div class="do"></div>
+    	<!-- <div class="left"><</div>
+    	<div class="right">></div> -->
+    </div>
+    <!--11-->
+      <div class="wrap" id="wrap">
+    	<div class="move">
+    		<a href="#"><img src="img/1.jpg" alt=""></a>
+    		<a href="#"><img src="img/2.jpg" alt=""></a>
+    		<a href="#"><img src="img/3.jpg" alt=""></a>
+    		<a href="#"><img src="img/4.jpg" alt=""></a>
+    		<a href="#"><img src="img/5.jpg" alt=""></a>
+    	</div>
+    	<div class="do"></div>
+    	<!-- <div class="left"><</div>
+    	<div class="right">></div> -->
+    </div>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="datu.js"></script>
+    <script type="text/javascript">
+    	
+    			$(".wrap").move();
+    			// console.log($(".wrap").move().move_w);
+    			//console.log(document.getElementById("w").nodeType)    		
+    	
+	
+    </script>
+</body>
+</html>
